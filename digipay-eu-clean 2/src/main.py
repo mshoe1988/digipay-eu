@@ -1,3 +1,6 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
 """
 Digipay EU - Payment Gateway Platform
 A secure, scalable payment processing platform for European businesses
